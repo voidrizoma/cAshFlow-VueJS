@@ -15,18 +15,17 @@ export default {
     ),
   },
 };
-
 </script>
 
 <template>
-<Suspense>
-<template #default>
-  <Home/>
-  </template>
-  <template #fallback>
-  <SplashScreen/>
-  </template>
-</Suspense>
+  <Suspense>
+    <template #default>
+      <Home />
+    </template>
+    <template #fallback>
+      <SplashScreen />
+    </template>
+  </Suspense>
 </template>
 
 <style>
